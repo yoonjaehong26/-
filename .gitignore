@@ -1,3 +1,25 @@
-a=[0,1,2,3,4]
+import numpy as np
+import matplotlib.pyplot as plt
+# pip install numpy 입력
+#pip install matplotlib 입력하기
 
-class 
+print("input a")
+a=int(input())
+print("input b")
+b=int(input())
+class calculate:
+    def __inti__(self):
+        print("calculating now---")
+        
+
+    def calculate_sum(self,input_1,input_2):
+        self.result=input_1+input_2
+        print("result=" ,self.result)
+    def calculate_sub(self,input_1,input_2):
+        self.result = input_1 - input_2
+        print("result=" ,self.result)
+        
+cal=calculate()
+cal.calculate_sub(a,b)
+
+
